@@ -1,0 +1,33 @@
+.intro{
+  overflow-x: hidden;
+  padding: 49px 0 89px;
+  position: relative;
+  &:after{
+    @extend %after-background;
+  }
+  &__subtitle{
+    font-size: 18px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color:$blue-color;
+  }
+  &__title{
+    font-weight: 800;
+    font-size: 55px;
+    line-height: 71px;
+    margin-bottom: 40px;
+  }
+  &__description{
+    font-size: 18px;
+    line-height: 29px;
+    opacity:$text-opacity;
+    margin-bottom: 50px;
+  }
+  &__button-wrapper{
+    gap: 20px;
+    a{
+      padding: 8px 25px;
+      font-size: $font-lg-size;
+    }
+  }
+}

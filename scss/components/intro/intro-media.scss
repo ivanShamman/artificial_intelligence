@@ -1,0 +1,31 @@
+.intro{
+  @media (max-width: 1515px) {
+    &__img{
+      width: 100%;
+    }
+  }
+  @media (max-width: 1200px) {
+    &__title{
+      font-size: 42px;
+      line-height: 50px;
+    }
+  }
+  @media (max-width:575px) {
+    &__button-wrapper{
+      flex-wrap: wrap;
+      justify-content: center;
+      a{
+        width: 80%;
+      }
+    }
+  }
+  @media (max-width: 430px) {
+    &__title{
+      font-size: 38px;
+      line-height: 45px;
+    }
+    &__button-wrapper a{
+      width: 100%;
+    }
+  }
+}

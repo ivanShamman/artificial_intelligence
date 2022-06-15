@@ -1,0 +1,101 @@
+.footer {
+  position: relative;
+  padding: 77px 0 100px;
+  font-family: $footer-font-family;
+
+  &:after {
+    @extend %after-background;
+  }
+
+  &__brand {
+    gap: 8px;
+    margin-bottom: 37px;
+
+    img {
+      width: 20%;
+    }
+
+    span {
+      font-family: $main-font-family;
+      font-size: 15px;
+      line-height: 22px;
+      color: $blue-color;
+    }
+
+    p {
+      font-weight: 450;
+      font-size: $font-sm-size;
+      line-height: 18px;
+      opacity: 0.6;
+    }
+  }
+
+  &__brand-contact-list {
+    &-link {
+      font-weight: 500;
+      font-size: $font-sm-size;
+      line-height: 18px;
+      color: $white-color;
+      text-decoration: none;
+
+      &:hover {
+        color: $blue-color;
+        transition: $transition;
+      }
+    }
+  }
+
+  &__nav-title {
+    font-weight: 500;
+    font-size:$font-md-size;
+    line-height: 20px;
+    margin-bottom: 32px;
+  }
+
+  &__nav-list {
+    gap: 18px;
+  }
+
+  &__description {
+    font-weight: 450;
+    font-size: $font-sm-size;
+    line-height: 18px;
+    opacity: 0.6;
+    margin-bottom: 29px;
+  }
+
+  &__nav-list a,
+  &__social-list a {
+    font-weight: 450;
+    font-size: $font-sm-size;
+    line-height: 18px;
+    color:$white-color;
+    opacity: 0.6;
+    text-decoration: none;
+
+    &:hover {
+      color: $blue-color;
+      opacity: 1;
+      transition: $transition;
+    }
+  }
+
+  &__social-list {
+    gap: 25px;
+    margin-bottom: 52px;
+  }
+
+  & .dropdown-menu {
+    background-color:$bg-color;
+    border-color: $blue-color;
+
+    & .dropdown-item {
+      color:$white-color;
+      background-color: inherit;
+      &:hover{
+        color: $blue-color;
+        transition: $transition;
+      }
+    }
+  }
+}

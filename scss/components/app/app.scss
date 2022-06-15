@@ -1,0 +1,14 @@
+.app{
+  margin: 100px 0 130px;
+  &__title{
+    font-weight: 700;
+    font-size:$font-xl-size;
+    line-height: 52px;
+    margin-bottom: 21px;
+  }
+  &__description{
+    line-height: 26px;
+    opacity:$text-opacity;
+    margin-bottom: 50px;
+  }
+}

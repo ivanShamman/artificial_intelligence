@@ -1,0 +1,42 @@
+body{
+  font-family:$main-font-family;
+  font-size:$font-md-size;
+  color:$white-color;
+  background:$bg-color;
+}
+.container{
+  @media (min-width: 1200px) {
+    max-width:$container-max-width;
+  }
+}
+
+.bi::before,
+[class^="bi-"]::before,
+[class*=" bi-"]::before {
+  display: inline-block;
+  font-family:$bootstrap-font-family !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  vertical-align: -.125em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.bi-play-fill:before{content: "\F4F4";}
+.bi-envelope:before{content: "\F32F";}
+.bi-telephone:before{content: "\F5C1";}
+.bi-geo-alt:before{content: "\F3E8";}
+.bi-facebook:before{content: "\F344";}
+.bi-instagram:before{content: "\F437";}
+.bi-twitter:before{content: "\F5EF";}
+.bi-linkedin:before{content: "\F472";}
+.bi-youtube:before{content: "\F62B";}
+.bi-globe:before{content: "\F3EE";}
+
+
+ul{
+  padding: 0;
+  list-style: none;
+}

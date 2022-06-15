@@ -1,0 +1,16 @@
+.about{
+  margin: 150px 0;
+  &__title{
+    font-weight: 700;
+    font-size: $font-xl-size;
+    line-height:52px;
+    margin-bottom: 40px;
+  }
+  &__description{
+    line-height: 26px;
+    opacity:$text-opacity;
+    &:not(:last-child){
+      margin-bottom: 20px;
+    }
+  }
+}

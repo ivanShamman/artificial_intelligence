@@ -1,0 +1,30 @@
+.header{
+  position: relative;
+  &:after{
+    @extend %after-background;
+  }
+  &__logo{
+    &-wrapper{
+      margin-right: 83px;
+    }
+    &-text{
+      font-size: 22px;
+      color: $blue-color;
+    }
+  }
+  & .nav-item:not(:last-child){
+    margin-right: 32px;
+  }
+  a{
+    font-size:$font-md-size;
+    color:$white-color;
+    &:hover{
+      color: $blue-color;
+      transition:$transition;
+    }
+  }
+  &__burger-btn{
+    background-color:$blue-color;
+    padding: 3px 5px;
+  }
+}

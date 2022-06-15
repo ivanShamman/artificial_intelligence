@@ -1,0 +1,7 @@
+.feature{
+  @media (max-height: 1200px) {
+    &__carousel-card-title{
+      font-size: $font-lg-size;
+    }
+  }
+}

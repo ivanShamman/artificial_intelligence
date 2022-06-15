@@ -1,0 +1,15 @@
+.header{
+  @media (max-width: 1200px) {
+    &__logo-wrapper{
+      margin-right: 35px;
+    }
+    & .nav-item:not(:last-child){
+      margin-right: 20px;
+    }
+  }
+  @media (max-width: 385px) {
+    &__logo-text{
+      font-size: 15px;
+    }
+  }
+}

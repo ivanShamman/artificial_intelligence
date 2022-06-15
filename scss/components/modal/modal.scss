@@ -1,0 +1,23 @@
+.modal{
+  &__sign-in,
+  &__registration{
+    & .modal-content{
+      background-color:$bg-color;
+      border-color:$blue-color;
+    }
+    & .modal-header,
+    & .modal-footer{
+      border-color:$blue-color;
+    }
+  }
+}
+
+.form-control,
+.form-text{
+  color:$white-color;
+}
+.form-control,
+.form-control:focus{
+  background-color:$bg-color;
+  border-color:$blue-color;
+}
