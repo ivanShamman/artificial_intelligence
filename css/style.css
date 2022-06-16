@@ -438,11 +438,11 @@ ul {
   transition: 0.3s;
 }
 
-.modal__sign-in .modal-content, .modal__registration .modal-content {
+.modal__sign-in .modal-content, .modal__registration .modal-content, .modal__video .modal-content {
   background-color: #020A18;
   border-color: #3A68B8;
 }
-.modal__sign-in .modal-header, .modal__sign-in .modal-footer, .modal__registration .modal-header, .modal__registration .modal-footer {
+.modal__sign-in .modal-header, .modal__sign-in .modal-footer, .modal__registration .modal-header, .modal__registration .modal-footer, .modal__video .modal-header, .modal__video .modal-footer {
   border-color: #3A68B8;
 }
 

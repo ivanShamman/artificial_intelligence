@@ -1,6 +1,7 @@
 .modal{
   &__sign-in,
-  &__registration{
+  &__registration,
+  &__video{
     & .modal-content{
       background-color:$bg-color;
       border-color:$blue-color;
